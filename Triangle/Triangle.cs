@@ -18,6 +18,9 @@ namespace TriangleTracker
       Console.WriteLine("Enter the length of the third side (please use a numeral):");
       string stringAnswerThree = Console.ReadLine();
       int answerThree = int.Parse(stringAnswerOne);
+
+      string Value = Types.TriangleMethod(answerOne, answerTwo, answerThree);
+      Console.WriteLine(Value);
     }
   }
 }

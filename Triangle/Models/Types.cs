@@ -2,10 +2,13 @@ namespace Triangle.Models
 {
   public class Types
   {
-    public static bool TriangleMethod(int answerOne, int answerTwo)
+    public static string TriangleMethod(int answerOne, int answerTwo, int answerThree)
       {
-        return (answerOne == answerTwo);
+        if ((answerOne == answerTwo) && (answerTwo == answerThree)) {
+          return "This is an equailateral triangle.";
+        } else {
+          return "This is something else.";
+        }
       }
-    // properties, constructors, methods, etc. go here
   }
 }

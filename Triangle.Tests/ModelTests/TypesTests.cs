@@ -9,7 +9,7 @@ namespace Triangle.Tests
     [TestMethod]
     public void TriangleMethod_AreAllSidesEqual_True()
     {
-      Assert.AreEqual(true, Types.TriangleMethod(3, 3));
+      Assert.AreEqual(true, Types.TriangleMethod(3, 3, 3));
     }
   }
 }
